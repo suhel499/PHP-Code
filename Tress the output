@@ -1,0 +1,10 @@
+  $x = 5;
+  echo $x;          	//  $x=5  O/P   5
+
+  echo $x+++$x++;   	//  $x(5)++ + $x(6)++  O/P   11  and now $x++ it means x=7
+
+  echo $x;         		//  $x=7  O/P   7
+
+  echo $x---$x--;  		//  $x(7)-- - $x(6)--  O/P   1    and now $x-- it means x=5
+
+  echo $x;         		//  $x=5  O/P   5
